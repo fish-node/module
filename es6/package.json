@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "pack": "webpack ./index.js -o ./boundle.js",
+    "dev": "webpack ./index.js --watch -o ./boundle.js"
+  },
+  "devDependencies": {
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  }
+}
